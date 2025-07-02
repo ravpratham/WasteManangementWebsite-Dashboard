@@ -35,6 +35,9 @@ This project is a web dashboard for waste management, built with React, TypeScri
 <img src = "public/docs/homePage-1.svg"/>
 <img src = "public/docs/homePage-2.svg"/>
 
+- [Home Page PDF](public/docs/homePage.pdf)
+
+
 ## Requirements
 - Node.js
 - npm
