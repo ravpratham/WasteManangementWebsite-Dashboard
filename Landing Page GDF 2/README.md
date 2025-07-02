@@ -30,17 +30,12 @@ This project is a web dashboard for waste management, built with React, TypeScri
    npm run build
    ```
 
-## Add Home Page PDF
-The PDF version of the Home Page has been added and is available here:
+## Home Page
 
-- [Home Page PDF](public/docs/homePage.pdf)
-
-You can view or download the PDF directly from this link. If you need to update it, simply replace the file at `public/docs/homePage.pdf`.
+<img src = "public/docs/homePage-1.svg"/>
+<img src = "public/docs/homePage-2.svg"/>
 
 ## Requirements
 - Node.js
 - npm
 - (Optional) Python (for backend scripts in `Venv/`)
-
-## License
-Specify your license here. 
