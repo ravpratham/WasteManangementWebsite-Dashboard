@@ -56,7 +56,7 @@ const AboutPage: React.FC = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://lookerstudio.google.com/embed/reporting/6cb14e71-279d-4fcc-b3ad-ba8f7058ea06/page/9EKPF"
+              src="https://lookerstudio.google.com/embed/reporting/c6f7b17e-b11f-4a0b-8fd8-29b78fb631c4/page/9EKPF"
               style={{ border: 0, width: '100%', height: '100%', display: 'block', overflow: 'hidden' }}
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
