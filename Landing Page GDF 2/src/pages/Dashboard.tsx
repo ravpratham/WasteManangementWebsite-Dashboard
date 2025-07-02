@@ -51,13 +51,13 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className="text-center w-full mx-auto mb-12"
-            style={{ aspectRatio: '16/9', height: 'auto', maxHeight: '100vh', overflow: 'hidden', minHeight: 0 }}
+            style={{ aspectRatio: '16/9', width: '100%', height: '130vh', maxHeight: '130vh', overflow: 'hidden', minHeight: 0 }}
           >
             <iframe
               width="100%"
               height="100%"
               src="https://lookerstudio.google.com/embed/reporting/6cb14e71-279d-4fcc-b3ad-ba8f7058ea06/page/9EKPF"
-              style={{ border: 0, width: '100%', height: '100%', display: 'block' }}
+              style={{ border: 0, width: '100%', height: '100%', display: 'block', overflow: 'hidden' }}
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               title="Impact Dashboard"
