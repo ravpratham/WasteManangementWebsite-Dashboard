@@ -62,14 +62,18 @@ const HomePage: React.FC = () => {
       {/* Looker Studio Dashboard Button */}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
-          <a
+          {/* <a
             href="https://lookerstudio.google.com/embed/reporting/6cb14e71-279d-4fcc-b3ad-ba8f7058ea06/page/9EKPF" // TODO: Replace with actual dashboard link
             target="_blank"
             rel="noopener noreferrer"
             className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md"
-          >
+          
             View Our Impact Dashboard
-          </a>
+          </a> */}
+
+          <Link to="/dashboard" className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md">
+            View Our Impact Dashboard
+          </Link>
         </div>
       </section>
 
