@@ -102,5 +102,18 @@ export const projectsData = [
     weight: 7.5,
     image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg',
     featured: false
+  },
+  {
+    id: '9',
+    title: 'Re-thinking public spaces',
+    description: 'On Gandhi Jayanti 2023, we transformed 10,000 sq. ft. under Patna’s R Block flyover into Bihar’s first "Park & Play Sports Facility"—a free, public badminton and cricket space, developed under PMC’s vision and Federal Bank’s CSR.',
+    date: '2024-01-30',
+    location: 'Central Market, Downtown',
+    status: 'Completed',
+    wasteType: 'Commercial Waste',
+    houses: 0,
+    weight: 7.5,
+    image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg',
+    featured: false
   }
 ];
