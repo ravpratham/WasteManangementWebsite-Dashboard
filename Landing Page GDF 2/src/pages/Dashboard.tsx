@@ -7,33 +7,6 @@ const AboutPage: React.FC = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const teamMembers = [
-    {
-      name: 'Ashish Sachdeva',
-      role: 'Founder',
-      image: '',
-      bio: 'Ashish is a software engineer with a passion for environmental conservation. He is the founder of Green Dream Foundation and has been working to make a difference in the waste management industry for over 10 years.'
-    },
-    {
-      name: 'Mamshad',
-      role: '.',
-      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
-      bio: '.'
-    },
-    {
-      name: 'Monika',
-      role: '',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
-      bio: '.'
-    },
-    {
-      name: 'Arin Gupta',
-      role: 'Intern',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
-      bio: '.'
-    }
-  ];
-
   return (
     <div>
       {/* Hero Section */}
@@ -46,11 +19,10 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Mission & Values Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className="text-center w-full mx-auto mb-12"
+            className="text-center w-full mx-auto mb-10"
             style={{ aspectRatio: '16/9', width: '100%', height: '130vh', maxHeight: '130vh', overflow: 'hidden', minHeight: 0 }}
           >
             <iframe

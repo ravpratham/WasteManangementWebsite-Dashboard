@@ -95,7 +95,7 @@ const ContactPage: React.FC = () => {
                 <h2 className="text-2xl font-bold mb-6 text-gray-900">Send Us a Message</h2>
                 
                 <form 
-                  action="https://formsubmit.co/ravpratham@gmail.com"
+                  action="https://formsubmit.co/ravpratham3@gmail.com"
                   method="POST"
                 >
                   <input type="hidden" name="_captcha" value="false" />

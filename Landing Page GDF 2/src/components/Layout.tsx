@@ -35,7 +35,7 @@ const Layout: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <Link to="/" className="flex items-center space-x-2" onClick={closeMenu}>
-              <Leaf className="h-8 w-8 text-primary-600" />
+              <img src="/GDF_icon.jpeg" alt="Green Dream Foundation Logo" className="h-8 w-8 object-contain" />
               <span className="text-xl font-bold text-gray-900">Green Dream Foundation</span>
             </Link>
 
