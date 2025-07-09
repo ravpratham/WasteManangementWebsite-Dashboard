@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+// import { ArrowRight } from 'lucide-react';
+// import { Link } from 'react-router-dom';
 
 const AboutPage: React.FC = () => {
   useEffect(() => {
@@ -28,7 +28,7 @@ const AboutPage: React.FC = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://lookerstudio.google.com/embed/reporting/c6f7b17e-b11f-4a0b-8fd8-29b78fb631c4/page/9EKPF"
+              src="https://lookerstudio.google.com/embed/reporting/19fa0ee2-a5ab-4e57-a38d-dcb4463e30eb/page/9EKPF"
               style={{ border: 0, width: '100%', height: '100%', display: 'block', overflow: 'hidden' }}
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"

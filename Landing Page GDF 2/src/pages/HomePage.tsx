@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Recycle, Users, Calendar, BarChart2 } from 'lucide-react';
 import { projectsData } from '../data/projectsData';
 // import { statsData } from '../data/statsData';
+// @ts-ignore
+import Carousel from 'react-responsive-carousel/lib/js/components/Carousel/index';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const HomePage: React.FC = () => {
   useEffect(() => {
@@ -15,26 +18,43 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-700 to-primary-900 text-white">
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-pattern opacity-10"></div>
-        </div>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 lg:py-32 relative">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white animate-fade-in">
-              Creating a Sustainable Future Through Waste Management
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-100 animate-slide-up">
-              Join Green Dream Foundation in our mission to transform waste management practices and build cleaner, healthier communities.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link to="/projects" className="btn bg-white text-primary-700 hover:bg-gray-100 px-6 py-3 rounded-md font-bold transition-all duration-300">
-                Explore Our Projects
-              </Link>
-              <Link to="/contact" className="btn border-2 border-white text-white hover:bg-white hover:text-primary-700 px-6 py-3 rounded-md font-bold transition-all duration-300">
-                Get Involved
-              </Link>
-            </div>
+      <section className="relative h-[80vh] flex items-center justify-center">
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showThumbs={false}
+          showStatus={false}
+          showArrows={false}
+          interval={4000}
+          className="w-full h-full absolute inset-0 z-0"
+        >
+          <div>
+            <img src="/images/homePage_OurMission.jpg" alt="Our Mission" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_DryWaste.jpg" alt="Dry Waste" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_GreenGraffiti.jpg" alt="Green Graffiti" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_School.jpg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+        </Carousel>
+        <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-black">
+            Creating a Sustainable Future <br className="hidden md:block" /> Through Waste Management
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-black">
+            Join Green Dream Foundation in our mission to transform waste management practices and build cleaner, healthier communities.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-8 justify-center">
+            <Link to="/projects" className="btn bg-primary-700 text-white hover:bg-primary-900 px-6 py-3 rounded-md font-bold transition-all duration-300">
+              Explore Our Projects
+            </Link>
+            <Link to="/contact" className="btn bg-primary-700 text-white hover:bg-primary-900 px-6 py-3 rounded-md font-bold transition-all duration-300">
+              Get Involved
+            </Link>
           </div>
         </div>
       </section>
@@ -62,15 +82,6 @@ const HomePage: React.FC = () => {
       {/* Looker Studio Dashboard Button */}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
-          {/* <a
-            href="https://lookerstudio.google.com/embed/reporting/6cb14e71-279d-4fcc-b3ad-ba8f7058ea06/page/9EKPF" // TODO: Replace with actual dashboard link
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md"
-          
-            View Our Impact Dashboard
-          </a> */}
-
           <Link to="/dashboard" className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md">
             View Our Impact Dashboard
           </Link>
@@ -83,7 +94,7 @@ const HomePage: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="public\images\homePage_OurMission.jpg" 
+                src="/images/homePage_OurMission.jpg" 
                 alt="Team working on waste management" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
