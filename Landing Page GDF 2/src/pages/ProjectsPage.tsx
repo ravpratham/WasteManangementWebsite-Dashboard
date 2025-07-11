@@ -102,6 +102,9 @@ const ProjectsPage: React.FC = () => {
                         {project.status}
                       </span>
                       <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                      {project.subheading && (
+                        <div className="text-sm text-gray-200 mt-1">{project.subheading}</div>
+                      )}
                     </div>
                   </div>
                   <div className="p-6">
@@ -112,7 +115,7 @@ const ProjectsPage: React.FC = () => {
                         {project.date}
                       </span>
                     </div>
-                    <p className="text-gray-700 mb-4">{project.description}</p>
+                    <span className="text-gray-700 mb-4" style={{ whiteSpace: 'pre-line' }}>{project.description}</span>
                     <div className="border-t border-gray-100 pt-4">
                       <div className="flex flex-wrap gap-2">
                         <span className="inline-block px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">

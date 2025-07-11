@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Recycle, Users, Calendar, BarChart2 } from 'lucide-react';
+import { ArrowRight, Recycle, Users, Calendar, BarChart2, BookOpen, HandshakeIcon, Info } from 'lucide-react';
 import { projectsData } from '../data/projectsData';
 // import { statsData } from '../data/statsData';
 // @ts-ignore
@@ -45,9 +45,10 @@ const HomePage: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-black">
             Creating a Sustainable Future <br className="hidden md:block" /> Through Waste Management
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-black">
-            Join Green Dream Foundation in our mission to transform waste management practices and build cleaner, healthier communities.
+          <p className="text-xl md:text-2xl text-black">
+          Join Green Dream Foundation in creating a sustainable future - where every small step leads to big change
           </p>
+          <p className="text-xl md:text-2xl mb-8 text-black">Together for a Greener Tomorrow</p>
           <div className="mt-10 flex flex-wrap gap-8 justify-center">
             <Link to="/projects" className="btn bg-primary-700 text-white hover:bg-primary-900 px-6 py-3 rounded-md font-bold transition-all duration-300">
               Explore Our Projects
@@ -58,26 +59,6 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Stats Section */}
-      {/* <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {statsData.map((stat, index) => (
-              <div 
-                key={index} 
-                className="bg-gray-50 p-6 rounded-lg shadow-sm text-center transform transition-all duration-300 hover:shadow-md hover:-translate-y-1"
-              >
-                <div className="flex justify-center mb-4">
-                  {stat.icon}
-                </div>
-                <div className="text-4xl font-bold text-primary-600 mb-2">{stat.value}</div>
-                <div className="text-gray-600">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       {/* Looker Studio Dashboard Button */}
       <section className="py-8 bg-white">
@@ -102,11 +83,11 @@ const HomePage: React.FC = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Mission</h2>
               <p className="text-gray-700 mb-6">
-                At Green Dream Foundation, we believe that effective waste management is the cornerstone of sustainable development. Our mission is to implement innovative waste collection and recycling programs that reduce environmental impact, create jobs, and improve community health.
+              To nurture a sustainable world by restoring green cover through tree plantations, 
+              transforming mindsets through environmental education, and promoting responsible waste management. 
+              We strive to inspire conscious living and empower communities to become stewards of the Earth.
               </p>
-              <p className="text-gray-700 mb-8">
-                Through education, community engagement, and partnerships with local governments, we're transforming how societies handle waste and building a cleaner future for generations to come.
-              </p>
+              
               <Link to="/about" className="btn btn-primary inline-flex items-center">
                 Learn More About Us <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
@@ -119,40 +100,59 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Approach</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Approach & Framework</h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              We tackle waste management through a comprehensive approach that combines community engagement, data-driven solutions, and sustainable practices.
+            As an organization that primarily focuses on the environment, we aim to keep the 
+            ‘Triple Bottom Line’ (TBL) Framework at the core of all our initiatives & decision 
+            making since this helps address 3 aspects of sustainability – Social, Environmental 
+            and Financial or 3Ps – People, Planet and Prosperity.
+            </p>
+            <p className="text-gray-700 max-w-3xl mx-auto">
+            This framework becomes imperative to use because in real time, the environment is 
+            connected to everyone and everything in multiple ways. Without it, problems are often 
+            addressed linearly, resulting in short-term fixes that may worsen outcomes.
+            </p>
+            <p className="text-gray-700 max-w-3xl mx-auto">
+            With TBL, we analyze environmental problems from multiple lenses, enabling long-term, 
+            relevant, and unique solutions. As a multi-dimensional environmental organization, 
+            we tailor every solution using the following mediums:
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
-                <Recycle className="h-8 w-8 text-primary-600" />
+                <BookOpen className="h-8 w-8 text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">Waste Collection & Recycling</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Education</h3>
               <p className="text-gray-700">
-                We implement efficient waste collection systems and sorting facilities to maximize recycling rates and minimize landfill waste.
+              We focus on spreading knowledge via social media, events, partnerships, and domain experts about emerging environmental issues.
+              </p>
+              <p className="text-gray-700">
+              We conduct capacity-building workshops at TEDx, Ecothon, Smart Cities India Expo, Global CSR Summit, IIT Roorkee, Ernst & Young, Solar MENA Forum (Dubai), and many other forums and institutions.
               </p>
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
-                <Users className="h-8 w-8 text-primary-600" />
+                <HandshakeIcon className="h-8 w-8 text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">Community Education</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Engagement</h3>
               <p className="text-gray-700">
-                We educate communities about waste reduction, proper segregation, and sustainable consumption to create lasting behavioral change.
+              We actively engage over 5 million people per month via Facebook, X, Instagram, YouTube, and in-person campaigns.
+              </p>
+              <p className="text-gray-700">
+              Workshops, seminars, and volunteer-led initiatives drive community behavior change and measurable outcomes.
               </p>
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
-                <BarChart2 className="h-8 w-8 text-primary-600" />
+                <Info className="h-8 w-8 text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">Data-Driven Solutions</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Consultation</h3>
               <p className="text-gray-700">
-                We collect and analyze waste data to optimize collection routes, identify improvement areas, and measure environmental impact.
+              We offer end-to-end support for CSR and EPR implementation, enabling individuals, institutions, and corporations to adopt environmentally sustainable practices.
               </p>
             </div>
           </div>

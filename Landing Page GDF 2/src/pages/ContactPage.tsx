@@ -43,8 +43,8 @@ const ContactPage: React.FC = () => {
                   <div>
                     <h3 className="font-bold text-gray-900">Our Address</h3>
                     <p className="text-gray-700">
-                      DG-3/156, Vikas Puri,<br />
-                       New Delhi – 110018, India
+                      B-1132, Tower B, 11th Floor,<br />
+                      i-Thum, Sector 62, Noida, Uttar Pradesh, India
                     </p>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ const ContactPage: React.FC = () => {
             {/* Google Maps Embed for Green Dream Foundation Location */}
             <iframe
               title="Green Dream Foundation Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.123456789!2d77.0738028!3d28.6387532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04ed4da632a7%3A0x342bea9d690690c6!2sGreen%20Dream%20Foundation!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps?q=28.6272735,77.3725033&hl=es;z=14&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 350, borderRadius: 8 }}
