@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
           showThumbs={false}
           showStatus={false}
           showArrows={false}
-          interval={4000}
+          interval={6000}
           className="w-full h-full absolute inset-0 z-0"
         >
           <div>
@@ -60,12 +60,57 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Looker Studio Dashboard Button */}
+      {/* Looker Studio Dashboard Dropdown */}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
-          <Link to="/dashboard" className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md">
-            View Our Impact Dashboard
-          </Link>
+          <div className="relative inline-block text-left">
+            <button
+              type="button"
+              className="btn bg-primary-600 text-white hover:bg-primary-700 px-8 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-md flex items-center"
+              id="dashboard-menu-button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              onClick={() => {
+                const menu = document.getElementById('dashboard-menu');
+                if (menu) menu.classList.toggle('hidden');
+              }}
+            >
+              Dashboards
+              <svg className="ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            <div
+              id="dashboard-menu"
+              className="hidden absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-20"
+              role="menu"
+              aria-orientation="vertical"
+              aria-labelledby="dashboard-menu-button"
+            >
+              <div className="py-1">
+                <Link
+                  to="/delhiNCRDashboard"
+                  className="block px-4 py-3 text-gray-700 hover:bg-primary-100 hover:text-primary-700 text-lg font-medium rounded-t-md transition-colors duration-200"
+                  role="menuitem"
+                  onClick={() => {
+                    const menu = document.getElementById('dashboard-menu');
+                    if (menu) menu.classList.add('hidden');
+                  }}
+                >
+                  Delhi NCR Dashboard
+                </Link>
+                <Link
+                  to="/HisarDashboard"
+                  className="block px-4 py-3 text-gray-700 hover:bg-primary-100 hover:text-primary-700 text-lg font-medium rounded-b-md transition-colors duration-200"
+                  role="menuitem"
+                  onClick={() => {
+                    const menu = document.getElementById('dashboard-menu');
+                    if (menu) menu.classList.add('hidden');
+                  }}
+                >
+                  Hisar Dashboard
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
