@@ -72,20 +72,7 @@ const ContactPage: React.FC = () => {
 
               <div className="mt-12">
                 <h2 className="text-2xl font-bold mb-6 text-gray-900">Office Hours</h2>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span className="text-gray-700">Monday - Friday:</span>
-                    <span className="font-medium text-gray-900">9:00 AM - 5:00 PM</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-700">Saturday:</span>
-                    <span className="font-medium text-gray-900">Closed</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-700">Sunday:</span>
-                    <span className="font-medium text-gray-900">Closed</span>
-                  </li>
-                </ul>
+                <p>We don’t clock in and out — we work round the clock for Mother Earth</p>
               </div>
             </div>
 

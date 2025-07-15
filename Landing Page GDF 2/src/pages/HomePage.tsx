@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-black">
-            Creating a Sustainable Future <br className="hidden md:block" /> Through Waste Management
+            Creating a Sustainable Future <br className="hidden md:block" />
           </h1>
           <p className="text-xl md:text-2xl text-black">
           Join Green Dream Foundation in creating a sustainable future - where every small step leads to big change
@@ -143,61 +143,43 @@ const HomePage: React.FC = () => {
 
       {/* Services Section */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-2 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Approach & Framework</h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
-            As an organization that primarily focuses on the environment, we aim to keep the 
-            ‘Triple Bottom Line’ (TBL) Framework at the core of all our initiatives & decision 
-            making since this helps address 3 aspects of sustainability – Social, Environmental 
-            and Financial or 3Ps – People, Planet and Prosperity.
+            We follow the Triple Bottom Line (People, Planet, Prosperity) to guide all decisions, ensuring social, environmental, and financial sustainability. This approach helps us move beyond short-term fixes to create long-term, impactful solutions.
             </p>
-            <p className="text-gray-700 max-w-3xl mx-auto">
-            This framework becomes imperative to use because in real time, the environment is 
-            connected to everyone and everything in multiple ways. Without it, problems are often 
-            addressed linearly, resulting in short-term fixes that may worsen outcomes.
-            </p>
-            <p className="text-gray-700 max-w-3xl mx-auto">
-            With TBL, we analyze environmental problems from multiple lenses, enabling long-term, 
-            relevant, and unique solutions. As a multi-dimensional environmental organization, 
-            we tailor every solution using the following mediums:
-            </p>
+            
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md flex flex-col items-center text-center">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <BookOpen className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Education</h3>
               <p className="text-gray-700">
-              We focus on spreading knowledge via social media, events, partnerships, and domain experts about emerging environmental issues.
-              </p>
-              <p className="text-gray-700">
-              We conduct capacity-building workshops at TEDx, Ecothon, Smart Cities India Expo, Global CSR Summit, IIT Roorkee, Ernst & Young, Solar MENA Forum (Dubai), and many other forums and institutions.
+              We spread environmental awareness through social media, events, and expert sessions, with workshops at TEDx, Ecothon, Smart Cities Expo, IIT Roorkee, E&Y, and Solar MENA.
               </p>
             </div>
             
-            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md flex flex-col items-center text-center">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <HandshakeIcon className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Engagement</h3>
               <p className="text-gray-700">
-              We actively engage over 5 million people per month via Facebook, X, Instagram, YouTube, and in-person campaigns.
-              </p>
-              <p className="text-gray-700">
-              Workshops, seminars, and volunteer-led initiatives drive community behavior change and measurable outcomes.
+              We reach 5+ million people monthly through social media and campaigns. Workshops, seminars, and volunteer efforts drive community change and impact.
               </p>
             </div>
             
-            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg transition-all duration-300 hover:shadow-md flex flex-col items-center text-center">
               <div className="bg-primary-100 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                 <Info className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Consultation</h3>
               <p className="text-gray-700">
-              We offer end-to-end support for CSR and EPR implementation, enabling individuals, institutions, and corporations to adopt environmentally sustainable practices.
+              We offer end-to-end support for CSR and EPR implementation, enabling individuals, institutions, and corporations to adopt practical, environmentally sustainable practices.
               </p>
             </div>
           </div>
@@ -276,6 +258,19 @@ const HomePage: React.FC = () => {
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_IDFC_First_Bank.svg/2560px-Logo_of_IDFC_First_Bank.svg.png" alt="IDFC First Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
               <img src="https://static.wixstatic.com/media/51be94_717d2d56acf742faaf27ce72c019c705~mv2.jpg/v1/fill/w_462,h_252,al_c,lg_1,q_80,enc_avif,quality_auto/51be94_717d2d56acf742faaf27ce72c019c705~mv2.jpg" alt="BeejPaper" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/24/WWF_logo.svg/1200px-WWF_logo.svg.png" alt="WWF" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRric0VODcvFJkEWekuI43zg6Ebh54bXlMDlw&s" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbMuM2r6hzBBZEKWEwSLdNaWZBdJ6kkLqWng&s" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://mcchandigarh.gov.in/assets/img/logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://content.jdmagicbox.com/v2/comp/delhi/s9/011pxx11.xx11.130225171344.q9s9/catalogue/north-delhi-municipal-corporation-ito-delhi-government-organisations-31appmw.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://getvectorlogo.com/wp-content/uploads/2019/03/dcm-shriram-vector-logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://pbs.twimg.com/profile_images/1611407338858250240/6Bf5Rh6v_400x400.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://pbs.twimg.com/profile_images/1540281047006715904/iCbJ4YwF_400x400.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEbe4tBeAe8Lg/company-logo_200_200/company-logo_200_200/0/1683819978348/lucroplastecycle_logo?e=2147483647&v=beta&t=25lxN_CZrzl_gBW9kKbQJe3fE4Gsmz9iouzGAwmC52w" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://mma.prnewswire.com/media/1471872/Blue_Planet_Environmental_Solutions_Logo_Logo.jpg?p=facebook" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Patna_Municipal_Corporation_Logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://bbnda.in/Images/ludhianaheader.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seal_of_Uttarakhand.svg/1200px-Seal_of_Uttarakhand.svg.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
+              
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className="text-center w-full mx-auto mb-10"
-            style={{ aspectRatio: '16/9', width: '100%', height: '130vh', maxHeight: '130vh', overflow: 'hidden', minHeight: 0 }}
+            style={{ aspectRatio: '16/9', width: '100%', height: '120vh', maxHeight: '130vh', overflow: 'hidden', minHeight: 0 }}
           >
             <iframe
               width="100%"

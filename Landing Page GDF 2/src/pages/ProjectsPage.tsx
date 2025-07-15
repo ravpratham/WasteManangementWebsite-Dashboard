@@ -84,7 +84,7 @@ const ProjectsPage: React.FC = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {filteredProjects.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
               {filteredProjects.map((project) => (
                 <div key={project.id} className="card group transform transition duration-300 hover:-translate-y-2">
                   <div className="relative overflow-hidden">
@@ -102,33 +102,13 @@ const ProjectsPage: React.FC = () => {
                         {project.status}
                       </span>
                       <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                      {project.subheading && (
-                        <div className="text-sm text-gray-200 mt-1">{project.subheading}</div>
-                      )}
                     </div>
                   </div>
                   <div className="p-6">
                     <div className="flex justify-between items-center mb-4">
                       <span className="text-gray-600">{project.location}</span>
-                      <span className="flex items-center text-gray-500 text-sm">
-                        <Calendar className="h-4 w-4 mr-1" />
-                        {project.date}
-                      </span>
                     </div>
                     <span className="text-gray-700 mb-4" style={{ whiteSpace: 'pre-line' }}>{project.description}</span>
-                    <div className="border-t border-gray-100 pt-4">
-                      <div className="flex flex-wrap gap-2">
-                        <span className="inline-block px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">
-                          {project.wasteType}
-                        </span>
-                        <span className="inline-block px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">
-                          {project.houses} Houses
-                        </span>
-                        <span className="inline-block px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">
-                          {project.weight} Tons
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               ))}

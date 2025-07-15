@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">Green Dream Foundation</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Working together for a sustainable future through effective waste management.
+              Working together for a sustainable future.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/greendreamfoundation/" className="text-gray-400 hover:text-white transition-colors duration-200">

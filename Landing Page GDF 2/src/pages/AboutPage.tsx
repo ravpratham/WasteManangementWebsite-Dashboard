@@ -10,27 +10,63 @@ const AboutPage: React.FC = () => {
   const teamMembers = [
     {
       name: 'Ashish Sachdeva',
-      role: 'Founder',
+      role: 'Founder & President',
       image: '',
-      bio: 'Ashish is a software engineer with a passion for environmental conservation. He is the founder of Green Dream Foundation and has been working to make a difference in the waste management industry for over 10 years.'
+      bio: ''
     },
     {
-      name: 'Mamshad',
-      role: '.',
+      name: 'Shweta Pandey',
+      role: 'Executive Vice President',
       image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
-      bio: '.'
+      bio: ''
     },
     {
-      name: 'Monika',
+      name: 'Sharad Yadav',
       role: '',
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
-      bio: '.'
+      bio: ''
     },
     {
-      name: 'Arin Gupta',
-      role: 'Intern',
+      name: 'Mamshad Ahmad',
+      role: '',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
-      bio: '.'
+      bio: ''
+    },
+    {
+      name: 'Renu Sihag',
+      role: '',
+      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      bio: ''
+    },
+    {
+      name: 'Monika Jagariya',
+      role: '',
+      image: '',
+      bio: ''
+    },
+    {
+      name: 'Deepak Yadav',
+      role: '',
+      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
+      bio: ''
+    },
+    {
+      name: 'Deepa Ray',
+      role: '',
+      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
+      bio: ''
+    },
+    {
+      name: 'Sasmita Moharana',
+      role: '',
+      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      bio: ''
+    },
+    {
+      name: 'Sushmita',
+      role: '',
+      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      bio: ''
     }
   ];
 
@@ -76,18 +112,12 @@ const AboutPage: React.FC = () => {
       {/* Mission & Values Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Mission & Values</h2>
-            <p className="text-gray-700">
-              At Green Dream Foundation, we're guided by a clear mission and strong core values that drive everything we do.
-            </p>
-          </div>
-          
-          <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-            <h3 className="text-2xl font-bold mb-4 text-primary-600">Our Mission</h3>
+          <div className="bg-white text-center rounded-lg shadow-md p-8 mb-12">
+            <h3 className="text-2xl font-bold mb-4 text-primary-600">Our Mission & Values</h3>
             <p className="text-gray-700 text-lg mb-0">
-              To create sustainable waste management solutions that protect the environment, improve public health, and empower communities to take ownership of their waste challenges.
+            At Green Dream Foundation, our mission is to create sustainable waste solutions that protect the environment, improve public health, and empower communities to own their waste challenges.
             </p>
+            
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -140,22 +170,22 @@ const AboutPage: React.FC = () => {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Team</h2>
             <p className="text-gray-700">
-              Meet the dedicated professionals working to make our vision a reality. Our diverse team brings expertise from environmental science, community development, data analytics, and more.
+            At Green Dream Foundation, engineers, social workers, scientists, and innovators unite to protect and restore the planet. Combining grassroots insights with practical solutions, we lead efforts in climate action, clean energy, education, and community empowerment.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <img 
                   src={member.image} 
                   alt={member.name} 
-                  className="w-full h-64 object-cover"
+                  className="w-full h-40 object-cover" 
                 />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1 text-gray-900">{member.name}</h3>
-                  <p className="text-primary-600 font-medium mb-4">{member.role}</p>
-                  <p className="text-gray-700">{member.bio}</p>
+                <div className="p-4">
+                  <h3 className="text-lg font-bold mb-1 text-gray-900">{member.name}</h3>
+                  <p className="text-primary-600 font-medium mb-2">{member.role}</p>
+                  <p className="text-gray-700 text-sm">{member.bio}</p> 
                 </div>
               </div>
             ))}
