@@ -28,7 +28,7 @@ const AboutPage: React.FC = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://lookerstudio.google.com/embed/reporting/19fa0ee2-a5ab-4e57-a38d-dcb4463e30eb/page/9EKPF"
+              src="https://lookerstudio.google.com/embed/reporting/79372fe7-cf0f-4ca8-b292-e9414d451016/page/jOLRF"
               style={{ border: 0, width: '100%', height: '100%', display: 'block', overflow: 'hidden' }}
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"

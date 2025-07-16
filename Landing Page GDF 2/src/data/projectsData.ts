@@ -6,7 +6,7 @@ export const projectsData = [
     date: '',
     location: 'DL-NCR, HR, OD',
     status: 'Ongoing',
-    image: '/images/homePage_DryWaste.jpg',
+    image: '/images/projectPage_Waste.jpg',
     featured: true
   },
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     date: '',
     location: 'DL-NCR, HR, HP, JH, OD, UP, UK',
     status: 'Ongoing',
-    image: '/images/homePage_GreenGraffiti.jpg',
+    image: '/images/projectPage_Graffiti.jpeg',
     featured: true
   },
   {
@@ -26,7 +26,7 @@ export const projectsData = [
     date: '',
     location: 'DL-NCR',
     status: 'Ongoing',
-    image: '/images/homePage_School.jpg',
+    image: '/images/projectPage_School.jpg',
     featured: true
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     date: '',
     location: 'HR, HP, TN, UK',
     status: 'Completed',
-    image: 'https://images.pexels.com/photos/2284170/pexels-photo-2284170.jpeg',
+    image: '/images/projectPage_EcoWarriors.jpeg',
     featured: false
   },
   {
@@ -46,7 +46,7 @@ export const projectsData = [
     date: '',
     location: 'HR, HP, TN, UK',
     status: 'Ongoing',
-    image: 'https://images.pexels.com/photos/3850512/pexels-photo-3850512.jpeg',
+    image: '/images/projectPage_LIFE.jpg',
     featured: false
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     date: '',
     location: 'HR, OD',
     status: 'Ongoing',
-    image: 'https://images.pexels.com/photos/6985192/pexels-photo-6985192.jpeg',
+    image: '/images/projectPage_SSA.jpeg',
     featured: false
   },
   {
@@ -76,7 +76,7 @@ export const projectsData = [
     date: '',
     location: 'BR',
     status: 'Completed',
-    image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg',
+    image: '/images/projectPage_Rethinking.jpeg',
     featured: false
   },
   {
@@ -86,7 +86,7 @@ export const projectsData = [
     date: '',
     location: 'HR, HP, TN, UK',
     status: 'Completed',
-    image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg',
+    image: '/images/projectPage_GreenBelt.jpeg',
     featured: false
   }
 ];

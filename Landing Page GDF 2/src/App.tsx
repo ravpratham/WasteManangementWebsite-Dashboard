@@ -7,7 +7,9 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import DelhiNCRDashboard from './pages/delhiNCRDashboard';
 import HisarDashboard from './pages/HisarDashboard';
+import JajpurDashboard from './pages/JajpurDashboard';
 import NotFoundPage from './pages/NotFoundPage';
+import PlantationDashboard from './pages/plantationDashboard';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="dashboard" element={<DelhiNCRDashboard />} />
         <Route path="delhiNCRDashboard" element={<DelhiNCRDashboard />} />
         <Route path="HisarDashboard" element={<HisarDashboard />} />
+        <Route path="JajpurDashboard" element={<JajpurDashboard />} />
+        <Route path="plantationDashboard" element={<PlantationDashboard />} />
         {/* 404 Route */}
         <Route path="*" element={<NotFoundPage />} />
       </Route>

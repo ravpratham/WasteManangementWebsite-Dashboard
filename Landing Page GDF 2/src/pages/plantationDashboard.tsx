@@ -23,12 +23,12 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className="text-center w-full mx-auto mb-10"
-            style={{ aspectRatio: '16/9', width: '100%', height: '79vh', maxHeight: '79vh', overflow: 'hidden', minHeight: 0 }}
+            style={{ aspectRatio: '16/9', width: '100%', height: '84vh', maxHeight: '84vh', overflow: 'hidden', minHeight: 0 }}
           >
             <iframe
               width="100%"
               height="100%"
-              src="https://lookerstudio.google.com/embed/reporting/19fa0ee2-a5ab-4e57-a38d-dcb4463e30eb/page/9EKPF"
+              src="https://lookerstudio.google.com/embed/reporting/dd6243a3-9c3f-4da1-a4f4-4dab39b85c46/page/5hiQF"
               style={{ border: 0, width: '100%', height: '100%', display: 'block', overflow: 'hidden' }}
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"

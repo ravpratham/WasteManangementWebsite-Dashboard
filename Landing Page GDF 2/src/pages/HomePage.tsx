@@ -24,21 +24,31 @@ const HomePage: React.FC = () => {
           infiniteLoop
           showThumbs={false}
           showStatus={false}
-          showArrows={false}
-          interval={6000}
+          showArrows={true}
+          showIndicators={true}
+          interval={3000}
           className="w-full h-full absolute inset-0 z-0"
         >
           <div>
-            <img src="/images/homePage_OurMission.jpg" alt="Our Mission" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo1.jpeg" alt="Our Mission" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
           <div>
-            <img src="/images/homePage_DryWaste.jpg" alt="Dry Waste" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo2.jpeg" alt="Dry Waste" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
           <div>
-            <img src="/images/homePage_GreenGraffiti.jpg" alt="Green Graffiti" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo3.jpeg" alt="Green Graffiti" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
           <div>
-            <img src="/images/homePage_School.jpg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo4.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_Carousal_photo5.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', objectPosition: '50% 24%', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_Carousal_photo6.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_Carousal_photo7.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
@@ -108,6 +118,28 @@ const HomePage: React.FC = () => {
                 >
                   Hisar Dashboard
                 </Link>
+                <Link
+                  to="/JajpurDashboard"
+                  className="block px-4 py-3 text-gray-700 hover:bg-primary-100 hover:text-primary-700 text-lg font-medium rounded-b-md transition-colors duration-200"
+                  role="menuitem"
+                  onClick={() => {
+                    const menu = document.getElementById('dashboard-menu');
+                    if (menu) menu.classList.add('hidden');
+                  }}
+                >
+                  Jajpur Dashboard
+                </Link>
+                <Link
+                  to="/plantationDashboard"
+                  className="block px-4 py-3 text-gray-700 hover:bg-primary-100 hover:text-primary-700 text-lg font-medium rounded-b-md transition-colors duration-200"
+                  role="menuitem"
+                  onClick={() => {
+                    const menu = document.getElementById('dashboard-menu');
+                    if (menu) menu.classList.add('hidden');
+                  }}
+                >
+                  Plantation Dashboard
+                </Link>
               </div>
             </div>
           </div>
@@ -120,7 +152,7 @@ const HomePage: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="/images/homePage_OurMission.jpg" 
+                src="/images/homePage_OurMission.jpeg" 
                 alt="Team working on waste management" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
@@ -233,6 +265,42 @@ const HomePage: React.FC = () => {
             <Link to="/projects" className="btn btn-primary inline-flex items-center">
               View All Projects <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* YouTube Videos Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Our Impact in Action</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="w-full h-[450px]">
+              <iframe
+                src="https://www.youtube.com/embed/LtT0UzgzKf0"
+                title="YouTube video 1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg border-0"
+              ></iframe>
+            </div>
+            <div className="w-full h-[450px]">
+              <iframe
+                src="https://www.youtube.com/embed/TgymihemWbE"
+                title="YouTube video 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg border-0"
+              ></iframe>
+            </div>
+            <div className="w-full h-[450px]">
+              <iframe
+                src="https://www.youtube.com/embed/Nj0BZYKoYHc"
+                title="YouTube video 3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg border-0"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
