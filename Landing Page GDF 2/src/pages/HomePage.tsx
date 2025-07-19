@@ -50,6 +50,12 @@ const HomePage: React.FC = () => {
           <div>
             <img src="/images/homePage_Carousal_photo7.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
+          <div>
+            <img src="/images/homePage_Carousal_photo8.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+          </div>
+          <div>
+            <img src="/images/homePage_Carousal_photo9.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', objectPosition: '50% 30', width: '100%', height: '80vh' }} />
+          </div>
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-black">
