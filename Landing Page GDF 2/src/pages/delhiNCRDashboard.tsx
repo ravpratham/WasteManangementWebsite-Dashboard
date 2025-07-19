@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 // import { ArrowRight } from 'lucide-react';
 // import { Link } from 'react-router-dom';
 
-const DelhiNCRDashboard: React.FC = () => {
+const AboutPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  // State to track iframe loading
-  const [loading, setLoading] = useState(true);
 
   return (
     <div>
@@ -25,15 +22,9 @@ const DelhiNCRDashboard: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className="text-center w-full mx-auto mb-10 relative"
+            className="text-center w-full mx-auto mb-10"
             style={{ aspectRatio: '16/9', width: '100%', height: '79vh', maxHeight: '79vh', overflow: 'hidden', minHeight: 0 }}
           >
-            {/* Loader/Spinner */}
-            {loading && (
-              <div className="absolute inset-0 flex items-center justify-center bg-white z-10">
-                <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-primary-600 border-solid"></div>
-              </div>
-            )}
             <iframe
               width="100%"
               height="100%"
@@ -42,7 +33,6 @@ const DelhiNCRDashboard: React.FC = () => {
               allowFullScreen
               sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               title="Impact Dashboard"
-              onLoad={() => setLoading(false)}
             />
           </div>
         </div>
@@ -51,4 +41,4 @@ const DelhiNCRDashboard: React.FC = () => {
   );
 };
 
-export default DelhiNCRDashboard;
+export default AboutPage;
