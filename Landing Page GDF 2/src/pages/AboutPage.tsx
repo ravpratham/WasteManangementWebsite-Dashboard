@@ -25,49 +25,49 @@ const AboutPage: React.FC = () => {
     {
       name: 'Sharad Yadav',
       role: 'Associate Manager',
-      image: 'public/images/aboutPage_Sharad.jpeg',
+      image: '/images/aboutPage_Sharad.jpeg',
       bio: 'Myself Sharad Yadav, Associate Manager - Programs for Sustainable Waste Management. I drive initiatives promoting environmental stewardship and community well-being through sustainable waste management, greenery initiatives, and community empowerment. I lead cross-functional teams and create awareness among young minds about sustainability, inspiring a greener future.'
     },
     {
       name: 'Mamshad Ahmad',
       role: 'Associate Manager',
-      image: 'public/images/aboutPage_Mamshad.jpg',
+      image: '/images/aboutPage_Mamshad.jpg',
       bio: 'Environmentalist by choice, engineer by degree, and a rural development enthusiast at heart. With a background in engineering and a master’s in Sustainable Rural Management, I work at the intersection of technology, community, and climate action. At Green Dream Foundation, I manage programs that turn green ideas into ground realities, lead initiatives that create lasting impact on both people and the planet.'
     },
     {
       name: 'Renu Sihag',
       role: 'Associate Manager',
-      image: 'public/images/aboutPage_Renu.jpeg',
+      image: '/images/aboutPage_Renu.jpeg',
       bio: 'I have been associated with Green Dream Foundation for the past five years, contributing actively to various environmental initiatives. With a Master’s degree in Social Work, my passion lies in promoting sustainable practices that help protect and preserve our environment. Currently, I serve as the Associate Manager at our Hisar location, where I lead and implement impactful projects aimed at creating a cleaner, greener future.'
     },
     {
       name: 'Monika Jagariya',
       role: 'Community Mobiliser',
-      image: 'public/images/aboutPage_Monika.JPG',
+      image: '/images/aboutPage_Monika.JPG',
       bio: 'Myself Monika Jagriya, Community Mobilizer - Programs for Sustainable Waste Management. I drive initiatives promoting environmental stewardship and community well-being through sustainable waste management, greenery initiatives, and community empowerment. I lead on-ground efforts and create awareness among young minds about sustainability, inspiring a greener and more responsible future.'
     },
     {
       name: 'Deepak Yadav',
       role: 'Sr. Community Mobiliser',
-      image: 'public/images/aboutPage_Deepak.jpg',
+      image: '/images/aboutPage_Deepak.jpg',
       bio: 'I am Deepak Yadav, and I have been associated with Green Dream Foundation for the past nine months, actively contributing to a range of environmental initiatives. I hold a Master’s degree in Disaster Management with a specialization in the technology for disaster management. I am deeply committed to promoting the democratization of technology to encourage more sustainable practices. Currently, I work as a Senior Community Mobilizer in Hisar, where I engage closely with communities to align their behaviour and attitudes with the project’s goals of adopting sustainable waste management practices.'
     },
     {
       name: 'Deepa Ray',
       role: 'Community Mobiliser',
-      image: 'public/images/aboutPage_Deepa.jpeg',
+      image: '/images/aboutPage_Deepa.jpeg',
       bio: 'I am currently associated with Green Dream Foundation, where I actively contribute to a range of environmental and sustainability-focused initiatives. Holding a Master’s degree in Disaster Management, I am deeply committed to risk reduction, climate resilience, and the promotion of sustainable practices that protect and preserve our environment. In my current role as a Community Mobilizer in Hisar, I lead the planning and implementation of impactful community-based projects aimed at fostering a cleaner and greener future.'
     },
     {
       name: 'Sasmita Moharana',
       role: 'Community Mobiliser',
-      image: 'public/images/aboutPage_Sasmita.jpeg',
+      image: '/images/aboutPage_Sasmita.jpeg',
       bio: "As a Community Mobilizer at Green Dream Foundation, I've worked on waste management projects for three years, focusing on door-to-door collection, awareness, and education. I've collaborated with schools, local shops, and communities to promote eco-friendly habits and proper waste management, finding it rewarding to educate kids and contribute to a cleaner environment."
     },
     {
       name: 'Susmita Puhan',
       role: 'Sr. Community Mobiliser',
-      image: 'public/images/aboutPage_Sushmita.jpeg',
+      image: '/images/aboutPage_Sushmita.jpeg',
       bio: "I'm Susmita Puhan, leading a team of members at Green Dream Foundation's waste management project in Jajpur district's Danagadi block. Our initiatives include door-to-door waste collection, awareness programs, and clean-up drives in Solei, Singagadia, and Danagadi areas. I find this work fulfilling and am committed to making a positive impact through sustainable waste management practices."
     }
   ];
