@@ -32,7 +32,7 @@ const AboutPage: React.FC = () => {
       name: 'Mamshad Ahmad',
       role: 'Associate Manager',
       image: '/images/aboutPage_Mamshad.jpg',
-      bio: 'Environmentalist by choice, engineer by degree, and a rural development enthusiast at heart. With a background in engineering and a master’s in Sustainable Rural Management, I work at the intersection of technology, community, and climate action. At Green Dream Foundation, I manage programs that turn green ideas into ground realities, lead initiatives that create lasting impact on both people and the planet.'
+      bio: 'Environmentalist by choice, engineer by education, and a rural development enthusiast at heart. With a background in engineering and a master’s in Sustainable Rural Management, I work at the intersection of technology, community, and climate action. At Green Dream Foundation, I manage programs that turn green ideas into ground realities, lead initiatives that create lasting impact on both people and the planet.'
     },
     {
       name: 'Renu Sihag',
