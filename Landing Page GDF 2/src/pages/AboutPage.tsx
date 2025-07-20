@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
       name: 'Shweta Pandey',
       role: 'Executive Vice President',
       image: '/images/aboutPage_Shweta.jpeg',
-      bio: 'I’m Shweta Pandey, Executive Vice President of Green Dream Foundation. Since the beginning, I’ve been deeply committed to building an organization that blends purpose with action—working at the intersection of people and the planet. At Green Dream, I lead our people strategy, foster cross-functional collaboration, and ensure our team stays grounded in compassion and sustainability. My journey here is driven by a simple belief: lasting environmental change starts with empowered individuals and united communities.'
+      bio: "I’m Shweta Pandey, Executive Vice President of Green Dream Foundation. Since the beginning, I’ve been deeply committed to building an organization that blends purpose with action—working at the intersection of people and the planet. At Green Dream, I lead our people strategy, foster cross-functional collaboration, and ensure our team stays grounded in compassion and sustainability. My journey here is driven by a simple belief: lasting environmental change starts with empowered individuals and united communities."
     },
     {
       name: 'Sharad Yadav',
