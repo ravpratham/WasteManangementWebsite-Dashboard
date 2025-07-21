@@ -48,13 +48,13 @@ const HomePage: React.FC = () => {
             <img src="/images/homePage_Carousal_photo6.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
           <div>
-            <img src="/images/homePage_Carousal_photo7.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo7.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', objectPosition: '50% 10%', width: '100%', height: '80vh' }} />
           </div>
           <div>
             <img src="/images/homePage_Carousal_photo8.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', width: '100%', height: '80vh' }} />
           </div>
           <div>
-            <img src="/images/homePage_Carousal_photo9.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', objectPosition: '50% 30', width: '100%', height: '80vh' }} />
+            <img src="/images/homePage_Carousal_photo9.jpeg" alt="School" style={{ opacity: 0.5, objectFit: 'cover', objectPosition: '50% 25%', width: '100%', height: '80vh' }} />
           </div>
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 text-center">
@@ -62,9 +62,10 @@ const HomePage: React.FC = () => {
             Creating a Sustainable Future <br className="hidden md:block" />
           </h1>
           <p className="text-xl md:text-2xl text-black">
-          Join Green Dream Foundation in creating a sustainable future - where every small step leads to big change
+          Live Your Green Dream with us by creating a Sustainable & Circular future
           </p>
-          <p className="text-xl md:text-2xl mb-8 text-black">Together for a Greener Tomorrow</p>
+          <p className="text-xl md:text-2xl text-black">where every small step leads to an meaningful and measurable impact</p>
+          
           <div className="mt-10 flex flex-wrap gap-8 justify-center">
             <Link to="/projects" className="btn bg-primary-700 text-white hover:bg-primary-900 px-6 py-3 rounded-md font-bold transition-all duration-300">
               Explore Our Projects
@@ -319,32 +320,35 @@ const HomePage: React.FC = () => {
             <p className="text-l mb-8">
               We are grateful to our partners for their support and collaboration in achieving our mission.
             </p>
-            {/* Partners Images Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-10 justify-items-center items-center mb-8">
-              <img src="https://www.jindalstainless.com/wp-content/uploads/2024/01/402546671_726835019468765_905049452957367908_n.jpg" alt="JSL" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFFXRgsfsZImA/company-logo_200_200/company-logo_200_200/0/1630629047046/exhibitions_india_pvt_ltd_logo?e=2147483647&v=beta&t=Gu_u2VOZGdPbg4yacbtXt4lrZCL45yZiGsuqzDoaDpw" alt="Exhibitions India Group" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://static.wixstatic.com/media/51be94_ecec2f6a6a2d437797090a8c4dd2d26f~mv2.jpg/v1/fill/w_182,h_148,al_c,lg_1,q_80,enc_avif,quality_auto/51be94_ecec2f6a6a2d437797090a8c4dd2d26f~mv2.jpg" alt="EcoRight Bags" className="h-100 w-auto object-contain transition duration-300 rounded-lg " />
-              <img src="https://static.wixstatic.com/media/51be94_3d4e9f3e3c074cc096b4226d12c1a485~mv2.png/v1/fill/w_280,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/51be94_3d4e9f3e3c074cc096b4226d12c1a485~mv2.png" alt="GRIHA Council" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-11730,resizemode-75,msid-87304710/news/india/centre-asks-media-organisations-to-display-logo-of-azadi-ka-amrit-mahotsav.jpg" alt="India@75" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GbN62KRgr3bE9NCbaRdIAawLmdDYIGdIVg&s" alt="Luminous" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://companieslogo.com/img/orig/FEDERALBNK.NS_BIG-37520d13.png?t=1720244491" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbI4pIPjoJHqF4p8o8oF4HSIdm3wYYBOjMQ&s" alt="CII/IPP" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_IDFC_First_Bank.svg/2560px-Logo_of_IDFC_First_Bank.svg.png" alt="IDFC First Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://static.wixstatic.com/media/51be94_717d2d56acf742faaf27ce72c019c705~mv2.jpg/v1/fill/w_462,h_252,al_c,lg_1,q_80,enc_avif,quality_auto/51be94_717d2d56acf742faaf27ce72c019c705~mv2.jpg" alt="BeejPaper" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/24/WWF_logo.svg/1200px-WWF_logo.svg.png" alt="WWF" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRric0VODcvFJkEWekuI43zg6Ebh54bXlMDlw&s" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbMuM2r6hzBBZEKWEwSLdNaWZBdJ6kkLqWng&s" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://mcchandigarh.gov.in/assets/img/logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://content.jdmagicbox.com/v2/comp/delhi/s9/011pxx11.xx11.130225171344.q9s9/catalogue/north-delhi-municipal-corporation-ito-delhi-government-organisations-31appmw.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://getvectorlogo.com/wp-content/uploads/2019/03/dcm-shriram-vector-logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://pbs.twimg.com/profile_images/1611407338858250240/6Bf5Rh6v_400x400.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://pbs.twimg.com/profile_images/1540281047006715904/iCbJ4YwF_400x400.jpg" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEbe4tBeAe8Lg/company-logo_200_200/company-logo_200_200/0/1683819978348/lucroplastecycle_logo?e=2147483647&v=beta&t=25lxN_CZrzl_gBW9kKbQJe3fE4Gsmz9iouzGAwmC52w" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://mma.prnewswire.com/media/1471872/Blue_Planet_Environmental_Solutions_Logo_Logo.jpg?p=facebook" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Patna_Municipal_Corporation_Logo.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://bbnda.in/Images/ludhianaheader.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seal_of_Uttarakhand.svg/1200px-Seal_of_Uttarakhand.svg.png" alt="Federal Bank" className="h-100 w-auto object-contain transition duration-300 rounded-lg" />
-              
+            {/* Partners Images Horizontal Scroller */}
+            <div className="relative w-full overflow-x-hidden">
+              <div
+                className="flex items-center gap-10 animate-partners-scroll"
+                style={{ width: 'max-content' }}
+              >
+                {/* Repeat the images twice for seamless looping */}
+                {[...Array(2)].map((_, idx) => (
+                  <React.Fragment key={idx}>
+                    <img src="https://www.jindalstainless.com/wp-content/uploads/2024/01/402546671_726835019468765_905049452957367908_n.jpg" alt="JSL" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GbN62KRgr3bE9NCbaRdIAawLmdDYIGdIVg&s" alt="Luminous" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://companieslogo.com/img/orig/FEDERALBNK.NS_BIG-37520d13.png?t=1720244491" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbI4pIPjoJHqF4p8o8oF4HSIdm3wYYBOjMQ&s" alt="CII/IPP" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_IDFC_First_Bank.svg/2560px-Logo_of_IDFC_First_Bank.svg.png" alt="IDFC First Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRric0VODcvFJkEWekuI43zg6Ebh54bXlMDlw&s" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbMuM2r6hzBBZEKWEwSLdNaWZBdJ6kkLqWng&s" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://mcchandigarh.gov.in/assets/img/logo.png" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://content.jdmagicbox.com/v2/comp/delhi/s9/011pxx11.xx11.130225171344.q9s9/catalogue/north-delhi-municipal-corporation-ito-delhi-government-organisations-31appmw.jpg" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://getvectorlogo.com/wp-content/uploads/2019/03/dcm-shriram-vector-logo.png" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://pbs.twimg.com/profile_images/1611407338858250240/6Bf5Rh6v_400x400.jpg" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://pbs.twimg.com/profile_images/1540281047006715904/iCbJ4YwF_400x400.jpg" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEbe4tBeAe8Lg/company-logo_200_200/company-logo_200_200/0/1683819978348/lucroplastecycle_logo?e=2147483647&v=beta&t=25lxN_CZrzl_gBW9kKbQJe3fE4Gsmz9iouzGAwmC52w" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://mma.prnewswire.com/media/1471872/Blue_Planet_Environmental_Solutions_Logo_Logo.jpg?p=facebook" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Patna_Municipal_Corporation_Logo.png" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://bbnda.in/Images/ludhianaheader.png" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seal_of_Uttarakhand.svg/1200px-Seal_of_Uttarakhand.svg.png" alt="Federal Bank" className="h-24 w-40 object-contain transition duration-300 rounded-lg" />
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
           </div>
         </div>

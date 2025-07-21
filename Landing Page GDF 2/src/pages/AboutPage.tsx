@@ -79,7 +79,7 @@ const AboutPage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-4">About Us</h1>
           <p className="text-xl max-w-3xl">
-            Learn about Green Dream Foundation, our mission, history, and the dedicated team working to revolutionize waste management.
+          Learn about Green Dream Foundation, our mission, history, and the dedicated team working to revolutionize environmental conservation and upgradation.
           </p>
         </div>
       </section>
@@ -91,13 +91,13 @@ const AboutPage: React.FC = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-gray-700 mb-4">
-                Green Dream Foundation was established in 2015 by a group of environmental scientists and community activists who saw the growing waste management crisis in urban areas. What began as a small initiative in one community has grown into a multi-faceted organization tackling waste management challenges across the country.
+              Green Dream Foundation was established in 2011 by a group of young environmental enthusiasts and community activists who saw the growing environmental crisis in both urban and rural areas. What began as a small initiative in one community has grown into a multi-faceted organization tackling climate challenges across the country.
               </p>
               <p className="text-gray-700 mb-4">
-                Our founders recognized that effective waste management isn't just an environmental issue—it's a public health concern, an economic opportunity, and a social justice imperative. This holistic understanding continues to guide our approach today.
+              Our founders recognized that effective waste management isn't just an environmental issue—it's a public health concern, an opportunity to generate dignified livelihoods, and a social justice imperative. This holistic understanding continues to guide our approach today.
               </p>
               <p className="text-gray-700">
-                Over the years, we've expanded from basic waste collection to implementing innovative recycling programs, conducting waste audits, developing educational initiatives, and advising local governments on sustainable waste policies.
+              Over the years, we've expanded from basic waste collection to implementing innovative & integrated recycling programs, tree plantation drives to development of mini forests, reviving water bodies, conducting waste audits, developing experiential educational initiatives, and advising local governments on environment and sustainability policies.
               </p>
             </div>
             <div className="md:w-1/2">

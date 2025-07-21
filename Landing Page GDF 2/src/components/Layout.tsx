@@ -34,9 +34,17 @@ const Layout: React.FC = () => {
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <Link to="/" className="flex items-center space-x-2" onClick={closeMenu}>
-              <img src="/GDF_icon.jpeg" alt="Green Dream Foundation Logo" className="h-8 w-8 object-contain" />
-              <span className="text-xl font-bold text-gray-900">Green Dream Foundation</span>
+            <Link to="/" className="flex flex-col items-center space-y-0.5" onClick={closeMenu}>
+              <span className="flex items-center space-x-3">
+                <img src="/GDF_icon.jpeg" alt="Green Dream Foundation Logo" className="h-12 w-12 object-contain" />
+                <span className="flex flex-col items-start">
+                  <span className="text-xl font-bold text-gray-900">
+                    Green Dream Foundation
+                    <sup className="align-super text-[10px] ml-0.5">TM</sup>
+                  </span>
+                  <span className="text-xs text-gray-500 font-medium text-left ml-3">Sustainability | Circularity | Resilience</span>
+                </span>
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
