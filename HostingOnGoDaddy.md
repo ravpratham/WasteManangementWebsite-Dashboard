@@ -1,4 +1,4 @@
-# Hosting Your React Website on GoDaddy
+ # Hosting Your React Website on GoDaddy
 
 This guide will help you deploy your React website (from the `Landing Page GDF 2` folder) to your GoDaddy domain using GoDaddy's own hosting.
 

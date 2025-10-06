@@ -24,13 +24,13 @@ const AboutPage: React.FC = () => {
     },
     {
       name: 'Sharad Yadav',
-      role: 'Associate Manager',
+      role: 'Program Manager',
       image: '/images/aboutPage_Sharad.jpeg',
       bio: 'Myself Sharad Yadav, Associate Manager - Programs for Sustainable Waste Management. I drive initiatives promoting environmental stewardship and community well-being through sustainable waste management, greenery initiatives, and community empowerment. I lead cross-functional teams and create awareness among young minds about sustainability, inspiring a greener future.'
     },
     {
       name: 'Mamshad Ahmad',
-      role: 'Associate Manager',
+      role: 'Program Manager',
       image: '/images/aboutPage_Mamshad.jpg',
       bio: 'Environmentalist by choice, engineer by education, and a rural development enthusiast at heart. With a background in engineering and a master’s in Sustainable Rural Management, I work at the intersection of technology, community, and climate action. At Green Dream Foundation, I manage programs that turn green ideas into ground realities, lead initiatives that create lasting impact on both people and the planet.'
     },
