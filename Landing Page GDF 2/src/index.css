@@ -81,3 +81,12 @@
 .animate-partners-scroll {
   animation: partners-scroll 40s linear infinite;
 }
+/* Remove dark background from carousel arrows */
+.carousel .control-arrow {
+  background: transparent !important;
+  opacity: 1 !important;
+}
+
+.carousel .control-arrow:hover {
+  background: transparent !important;
+}
