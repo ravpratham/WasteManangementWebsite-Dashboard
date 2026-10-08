@@ -37,11 +37,13 @@ const NoticeModal: React.FC<NoticeModalProps> = ({ onAccept }) => {
         {/* PDF */}
         <div className="min-h-0 flex-1 bg-gray-100 p-2 sm:p-4">
           <div className="h-full w-full overflow-hidden rounded-lg border border-gray-300 bg-white">
-            <iframe
-              src="/notice.pdf"
-              title="Important Notice"
-              className="h-full w-full"
-            />
+            <div className="w-full h-full overflow-y-auto bg-white">
+  <img
+    src="/notice.png"
+    alt="Important Notice"
+    className="w-full h-auto"
+  />
+</div>
           </div>
         </div>
 
